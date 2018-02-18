@@ -4,4 +4,4 @@ python:
 install
   - pip install requests
 script:
-  - HW04_XiaoyuLi.py
+  - python HW04_XiaoyuLi.py
