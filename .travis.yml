@@ -4,5 +4,5 @@ python:
 install:
  - pip install requests
 script:
- - python -m unittest HW04_XiaoyuLi
+ - python -m unittest testGithub
  
