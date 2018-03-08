@@ -1,12 +1,8 @@
-sudo: false
 language: python
 python:
  - "3.6"
 install:
  - pip install requests
- - pip install codecov
 script:
- - coverage run TestTriangle.py
  - python -m unittest HW04_XiaoyuLi
-after_success:
- - codecov
+ 
